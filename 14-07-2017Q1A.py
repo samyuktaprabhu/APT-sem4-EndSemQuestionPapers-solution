@@ -34,3 +34,13 @@ print(sum)
 list3=[]
 list3=copy.deepcopy(list1)
 print(list3)
+
+
+
+#remove duplicates
+list4=[]
+for i in list3:
+ if i not in list4:
+  list4.append(i)
+list3=list4
+print(list3)
